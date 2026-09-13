@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bangla Bazar Supermarket</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fffdf7;
+  color: #222;
+}
+
+header {
+  background: #075b3a;
+  color: white;
+  text-align: center;
+  padding: 24px 15px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header p {
+  margin: 8px 0 0;
+  color: #f4c95d;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 65px 22px;
+  text-align: center;
+  background: linear-gradient(135deg,#064e34,#0a7650);
+  color: white;
+}
+
+.hero h2 {
+  font-size: 38px;
+  margin: 0 0 18px;
+}
+
+.hero p {
+  max-width: 650px;
+  margin: auto;
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 25px;
+  background: #f4c95d;
+  color: #18392d;
+  padding: 12px 22px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 45px 20px;
+  text-align: center;
+}
+
+section h2 {
+  color: #075b3a;
+  font-size: 30px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 24px 10px;
+  border-radius: 14px;
+  box-shadow: 0 3px 14px rgba(0,0,0,.1);
+  font-weight: bold;
+}
+
+.card span {
+  display: block;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.coming {
+  background: #f7f1df;
+}
+
+footer {
+  background: #053c29;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+@media(min-width:700px) {
+  .products {
+    grid-template-columns: repeat(4,1fr);
+  }
+
+  .hero h2 {
+    font-size: 52px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Bangla Bazar Supermarket</h1>
+  <p>Authentic Foods • Fresh Quality • Your Neighborhood Market</p>
+</header>
+
+<div class="hero">
+  <h2>Welcome to Bangla Bazar</h2>
+
+  <p>
+    Your neighborhood destination for Zabiha Halal meat,
+    fresh fish, fresh produce, rice, groceries, spices,
+    snacks and household essentials.
+  </p>
+
+  <div class="badge">✓ ZABIHA HALAL</div>
+</div>
+
+<section>
+  <h2>What You'll Find</h2>
+
+  <div class="products">
+    <div class="card">
+      <span>🥩</span>
+      Zabiha Halal Meat
+    </div>
+
+    <div class="card">
+      <span>🐟</span>
+      Fresh Fish
+    </div>
+
+    <div class="card">
+      <span>🥬</span>
+      Fresh Produce
+    </div>
+
+    <div class="card">
+      <span>🍚</span>
+      Rice & Groceries
+    </div>
+
+    <div class="card">
+      <span>🌶️</span>
+      Spices
+    </div>
+
+    <div class="card">
+      <span>🥫</span>
+      Pantry Essentials
+    </div>
+
+    <div class="card">
+      <span>🍪</span>
+      Snacks
+    </div>
+
+    <div class="card">
+      <span>🛒</span>
+      Household Essentials
+    </div>
+  </div>
+</section>
+
+<section class="coming">
+  <h2>Coming Soon</h2>
+  <p>
+    Bangla Bazar Supermarket is getting ready to serve our community.
+    Check back soon for opening information, store hours and special offers.
+  </p>
+</section>
+
+<footer>
+  <strong>Bangla Bazar Supermarket</strong>
+  <p>Fresh Foods • Authentic Flavors • Quality You Can Trust</p>
+</footer>
+
+</body>
+</html>
